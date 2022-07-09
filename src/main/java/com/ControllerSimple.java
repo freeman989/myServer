@@ -14,4 +14,9 @@ public class ControllerSimple {
         return "index";
     }
 
+    @GetMapping("hello")
+    public String helloController(){
+        return "hello";
+    }
+
 }
